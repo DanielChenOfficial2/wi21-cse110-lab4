@@ -57,3 +57,16 @@ F. true, Boolean(2) is converted to true, and true === true is true.
 17. true assumed to be integer 1, so 2 == 1 returns false. 2 converted to boolean is true (since not 0), so 'How are you?' is printed. 
 
 18. 
+
+19. [6, 8, 10]
+On num[0], or 1: callback on doSomething returns 3, then 3 * 2 is pushed to the array, so 6.
+On num[1], or 2: callback on doSomething returns 4, then 4 * 2 is pushed to the array, so 8.
+On num[2], or 3: callback on doSomething returns 5, then 5 * 2 is pushed to the array, so 10. 
+
+20.
+
+21. 
+1
+4
+3
+2
